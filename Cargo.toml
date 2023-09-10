@@ -1,0 +1,15 @@
+[package]
+name = "markdown_task"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.69"
+chrono = { version = "0.4.29", features = ["serde"] }
+itertools = "0.10.5"
+markdown = "1.0.0-alpha.12"
+regex = "1.9.5"
+serde = { version = "1.0.188", features = ["derive"] }
+serde_json = { version = "1.0.105" }
